@@ -1,0 +1,5 @@
+PHP: http://localhost:8080/EntregaDAI_P2/php/index.html
+laravel:localhost:8080/EntregaDAI_P2/laravel/public/"archivo"
+
+como he implementado la parte de db, seria poner el nombre del archvio que hay puesto en el pdf de la practica es decir: datos_motocicleta para eloquent y 
+datos_motocicleta_db para db. 

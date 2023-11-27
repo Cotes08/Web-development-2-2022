@@ -1,0 +1,18 @@
+<!--#include file="seguridad.asp"-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario a&ntilde;adir aviones</title>
+    </head>
+    <body>
+        <h1>Formulario para a&ntilde;adir aviones</h1>
+        <h3>Complete los siguiente campos porfavor</h3>
+        <form method= "POST" action="anyadir_avion.asp">
+            Avion: <input type="text" name="nombreAvion" id="nombreAvion" placeholder="Boeing 747"><br><br>
+            Numero de plazas: <input type="text" name="n_plazas" id="n_plazas" placeholder="230"><br><br>
+            Precio base: <input type="text" name="precio_base" id="precio_base" placeholder="65"><br><br>
+            <a href="listado_aviones.asp"><input type="button" value ="Volver"></a>
+            <input type="submit" value ="A&ntilde;adir ">
+        </form>
+    </body>
+</html>
